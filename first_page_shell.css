@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html, body, div,
-h1, h2, h3, h4, h5, h6, p,
+h1, h2, h4, h5, h6, p,
 a, em, img, b, strong, i, u,
 article, aside, footer, header, nav, section,
 time {
@@ -14,38 +14,58 @@ time {
 	vertical-align: baseline;
 }
 
-body {
-	line-height: 1;
+h3 {
+	margin-top: 1em;
+	font-size: 1.3em;
+	text-align: center;
 }
+
 ol, ul {
 	list-style: none;
 }
 
 body{
+	line-height: 1;
 	margin:0;
 	padding:0;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size:100%;
-	background-color:#FFF;}
+	background-color:#FFF;
+}
 	
-	#wrap {width:90%; max-width:1200px; min-width:900px; margin:auto;}
-	
-	#header {width:100%; background:url(headerimage.jpg) no-repeat top right #069; height:100px; border: solid black; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+#wrap {
+	width:90%; max-width:1200px; min-width:900px; margin:auto;
+}
+
+#header {
+	width:100%;
+	background:url(headerimage.jpg) no-repeat top right #069;
+	height:100px;
+	border: solid black;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 	-moz-border-radius: 10px 10px 0 0;
 	-webkit-border-radius: 10px 10px 0 0;
-	border-radius: 10px 10px 0 0;}
-	
-	#header h1{font-family:Georgia, "Times New Roman", Times, serif; font-size:200%; color:#F90; text-align:center; padding-top:55px; padding-bottom:1em;}
-	
-	#topnav {
-		float: left;	
-	}
-	#topnav li {
+	border-radius: 10px 10px 0 0;
+}
+
+#header h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 200%;
+	color:#F90;
+	text-align:center;
+	padding-top:55px;
+	padding-bottom:1em;
+}
+
+#topnav {
+	float: left;	
+}
+#topnav li {
 	float:left;
 	margin:0 0 0 0px;
-	}
-	
-	#topnav li a {
+}
+
+#topnav li a {
 	padding: 0px 20px;
 	font-size:80%;
 	color:#FFF;
@@ -61,13 +81,15 @@ body{
 	
 	
 #nav {
-	float: left;
+	float: left; 
 	padding: 0px 0px 1px 1px;
-	
 }
 #nav li {
 	float:left;
-	margin:0 0 0 0px;
+	margin-top: 1px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 #nav li a {
 	padding: 15px 30px;
@@ -89,12 +111,38 @@ body{
 	background:#09C;
 }
 
-	#around {
-		width:100%; background-color:#069; color: black; float:left; border-bottom: solid black; border-left: solid black; border-right: solid black;	
+#around {
+	width:100%; background-color:#069; color: black; float:left; border-bottom: solid black; border-left: solid black; border-right: solid black;	
 	-moz-border-radius: 0px 0px 10px 10px;
 	-webkit-border-radius: 0px 0px 10px 10px;
 	border-radius: 0px 0px 10px 10px;
-	}
-	
-	#footer{width:100%; clear:both; background-color:#069; border: solid 3px #000;}
-	#footer p{font-family: "Times New Roman", Times, serif; font-size: 75%; color:#000; text-align:center}
+}
+
+footer {
+	height: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+	width:100%;
+	clear:both;
+	background-color:#069;
+	border: solid 3px #000;
+}
+footer p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 75%;
+	color:#000;
+	text-align:center
+}
+
+div#content {
+	width: 100%;
+	min-height: 700px;
+	margin-top: 2px;
+}
+
+.roundedBorder {
+	border: 2px solid black;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+}
