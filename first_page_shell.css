@@ -118,6 +118,42 @@ body{
 	border-radius: 0px 0px 10px 10px;
 }
 
+#side {
+	background-color:#069; 
+	width:15%; 
+	padding-left:1em; 
+	padding-right:1em;
+	padding-top:1em;
+	padding-bottom: 1em; 
+	margin-left:.5em; 
+	margin-top: 1em; 
+	margin-bottom:1em; 
+	float:left; 
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+	border: solid black;
+}
+#side {
+	font-family: Verdana, serif; 
+	font-size:85%; 
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	color: #FF9900;
+}
+#side p{
+	font-family: Verdana, serif; 
+	font-size:85%; 
+	padding-bottom:3em;
+	color: #FF9900
+}
+#side img{
+	float:left; width:25%; padding-top: 2em; margin-left: 1em; margin-right: 1em;
+}
+#side iframe {
+	float: left; border-width: 0; height: "250"; width: 90%; 
+}
+
 footer {
 	height: 20px;
 	margin-top: auto;
