@@ -34,7 +34,7 @@ body{
 }
 	
 #wrap {
-	width:90%; max-width:1200px; min-width:900px; margin:auto;
+	width:95%; max-width:1200px; min-width:900px; margin:auto;
 }
 
 #header {
@@ -154,6 +154,47 @@ body{
 	float: left; border-width: 0; height: "250"; width: 90%; 
 }
 
+
+#bottom {
+background-color: #F0EDE9;
+width: 100%;
+margin: 10% 0 0 0;
+float: bottom right;
+border-top: 1px solid #FF9900;
+	-moz-border-radius: 6px 6px 6px 6px; 
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;;
+
+}
+#bottom h1 {
+font-family: Georgia, "Times New Roman", Times, serif;
+text-align: center;
+font-size: 210%;
+color: #0B4066;
+}
+#bottom h2 {
+font-family: Verdana, serif;
+font-size: 110%;
+color: #0F3B09;
+margin: 1%;
+}
+#bottom p{
+font-family: Verdana, serif;
+font-size: 85%;
+color: black;
+width: 85%;
+margin: 1%;
+padding-bottom: 3%;
+}
+#bottom img {
+width: 9%;
+float: left;
+margin-right: 1%;
+	-moz-border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;}
+	
+	
 footer {
 	height: 20px;
 	margin-top: auto;
@@ -167,13 +208,14 @@ footer p {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 75%;
 	color:#000;
-	text-align:center
+	text-align:center;
 }
 
 div#content {
-	width: 100%;
-	min-height: 700px;
+	width: 80%;
 	margin-top: 2px;
+	margin-bottom: 1px;
+	float: right;
 }
 
 .roundedBorder {
