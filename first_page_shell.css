@@ -120,7 +120,7 @@ body{
 
 #side {
 	background-color:#069; 
-	width:15%; 
+	width:25%; 
 	padding-left:1em; 
 	padding-right:1em;
 	padding-top:1em;
@@ -148,7 +148,7 @@ body{
 	color: #FF9900
 }
 #side img{
-	float:left; width:25%; padding-top: 2em; margin-left: 1em; margin-right: 1em;
+	float:left; width:25%; padding-top: 2em; margin-left: 2em; margin-right: 1em;
 }
 #side iframe {
 	float: left; border-width: 0; height: "250"; width: 90%; 
